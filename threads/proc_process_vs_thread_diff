@@ -1,0 +1,10 @@
+/proc/1							      |	/proc/1/task/1
+|-- autogroup						      <
+							      >	|-- children
+|-- coredump_filter					      <
+|-- map_files						      <
+|-- mountstats						      <
+|-- net							      <
+|-- task						      <
+|-- timers						      <
+9 directories, 39 files					      |	6 directories, 36 files
