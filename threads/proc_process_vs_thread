@@ -1,0 +1,52 @@
+/proc/1							      |	/proc/1/task/1
+|-- attr							|-- attr
+|-- autogroup						      <
+|-- auxv							|-- auxv
+|-- cgroup							|-- cgroup
+							      >	|-- children
+|-- clear_refs							|-- clear_refs
+|-- cmdline							|-- cmdline
+|-- comm							|-- comm
+|-- coredump_filter					      <
+|-- cpuset							|-- cpuset
+|-- cwd -> /							|-- cwd -> /
+|-- environ							|-- environ
+|-- exe -> /usr/lib/systemd/systemd				|-- exe -> /usr/lib/systemd/systemd
+|-- fd								|-- fd
+|-- fdinfo							|-- fdinfo
+|-- gid_map							|-- gid_map
+|-- io								|-- io
+|-- limits							|-- limits
+|-- loginuid							|-- loginuid
+|-- map_files						      <
+|-- maps							|-- maps
+|-- mem								|-- mem
+|-- mountinfo							|-- mountinfo
+|-- mounts							|-- mounts
+|-- mountstats						      <
+|-- net							      <
+|-- ns								|-- ns
+|-- numa_maps							|-- numa_maps
+|-- oom_adj							|-- oom_adj
+|-- oom_score							|-- oom_score
+|-- oom_score_adj						|-- oom_score_adj
+|-- pagemap							|-- pagemap
+|-- personality							|-- personality
+|-- projid_map							|-- projid_map
+|-- root -> /							|-- root -> /
+|-- sched							|-- sched
+|-- schedstat							|-- schedstat
+|-- sessionid							|-- sessionid
+|-- setgroups							|-- setgroups
+|-- smaps							|-- smaps
+|-- stack							|-- stack
+|-- stat							|-- stat
+|-- statm							|-- statm
+|-- status							|-- status
+|-- syscall							|-- syscall
+|-- task						      <
+|-- timers						      <
+|-- uid_map							|-- uid_map
+`-- wchan							`-- wchan
+
+9 directories, 39 files					      |	6 directories, 36 files
